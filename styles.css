@@ -1,0 +1,59 @@
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#about{
+    background-color: gray;
+    color: white;
+}
+#projects{
+    background-color: gray;
+    color: white;
+}
+#skills{
+    background-color: gray;
+    color: white;
+}
+#contact{
+    background-color: gray;
+    color: white;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+}
+section {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+button {
+    background: #6200ea;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background: black;
+}
+@media (min-width: 768px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
